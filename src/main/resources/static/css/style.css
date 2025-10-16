@@ -156,16 +156,51 @@ button:active {
 .btn-link {
     display: inline-block;
     margin-top: 15px;
-    padding: 10px 20px;
+    padding: 12px 25px;
     background-color: #eeeeee;
     color: #00796b;
     border-radius: 8px;
     text-decoration: none;
     font-weight: 600;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
     transition: all 0.3s ease;
 }
 
 .btn-link:hover {
     background-color: #b2dfdb;
     color: #004d40;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+.btn-link:active {
+    transform: translateY(1px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Add New Book Button */
+.btn-primary {
+    display: inline-block;
+    margin: 20px 0;
+    padding: 12px 25px;
+    background-color: #00796b;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #004d40;
+    color: white;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+.btn-primary:active {
+    transform: translateY(1px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
